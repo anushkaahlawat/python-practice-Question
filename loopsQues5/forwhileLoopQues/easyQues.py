@@ -1,8 +1,63 @@
 # 1.Print numbers from 1 to 10 using a while loop.
+
+
+
+"""i = 1
+while i <= 10 :
+    print(i)
+    i += 1"""
+
+
+#-----------------------------------------------------------------------------------------------------------------
+
+
 # 2.Print numbers from 10 to 1 using a while loop.
+
+
+
+'''a = 10 
+while a >= 1:
+    print(a)
+    a -= 1'''
+
+
+
+#-------------------------------------------------------------------------------------------------------------------
+
+
 # 3.Print all even numbers from 1 to 20.
+
+
+
+'''c = 2
+while c <= 20:
+    print(c)
+    c += 2'''
+
+
+
+#-------------------------------------------------------------------------------------------------------------------
+
+
 # 4.Print all odd numbers from 1 to 20.
+
+
+
+"""d = 1
+while d <= 20:
+    print(d)
+    d += 2"""
+
+
+
+#---------------------------------------------------------------------------------------------------------------------
+
+
+
 # 5.Print numbers from 1 to N, where N is entered by the user.
+
+
+
 # 6.Find the sum of numbers from 1 to 10.
 # 7.Find the sum of numbers from 1 to N.
 # 8.Print the multiplication table of a number entered by the user.
