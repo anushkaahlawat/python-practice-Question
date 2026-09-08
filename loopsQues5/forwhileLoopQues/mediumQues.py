@@ -74,7 +74,7 @@ print("the product is",prod)'''
 
 
 
-num = int(input("Enter the number: "))
+'''num = int(input("Enter the number: "))
 
 reverse = 0
 
@@ -83,7 +83,7 @@ while num > 0:
     reverse = reverse * 10 + digit
     num = num // 10
 
-print("The reverse is:", reverse)
+print("The reverse is:", reverse)'''
 
 
 
@@ -94,10 +94,117 @@ print("The reverse is:", reverse)
 
 
 
+"""num = int(input("Enter the number: "))
+
+original = num
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 1012345
+
+if original == reverse:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")"""
+
+
+
+#-------------------------------------------------------------------------------------------------------------------
+
+
 # 7.Count how many even and odd digits are present in a number.
+
+
+
+'''num = int(input("Enter the number: "))
+
+even = 0
+odd = 0
+
+while num > 0:
+    digit = num % 10
+    if digit % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+
+    num = num // 10
+
+print("Even digits:", even)
+print("Odd digits:", odd)'''
+
+
+
+#--------------------------------------------------------------------------------------------------------------
+
+
 # 8.Find the largest digit in a number.
+
+
+
+'''num = int(input("Enter the number: "))
+
+largest = 0
+
+while num > 0:
+    digit = num % 10
+
+    if digit > largest:
+        largest = digit
+
+    num = num // 10
+
+print("Largest digit:", largest)'''
+
+
+
+#-------------------------------------------------------------------------------------------------------------
+
+
 # 9.Find the smallest digit in a number.
+
+
+
+'''num = int(input("Enter the number: "))
+
+smallest = num % 10
+
+while num > 0:
+    digit = num % 10
+
+    if digit < smallest:
+        smallest = digit
+
+    num = num // 10
+
+print("Smallest digit:", smallest)'''
+
+
+
+#--------------------------------------------------------------------------------------------------------------
+
+
 # 10.Count how many times a particular digit occurs in a number.
+
+
+
+num = int(input("Enter the number: "))
+target = int(input("Enter the digit to find: "))
+
+count = 0
+
+while num > 0:
+    digit = num % 10
+
+    if digit == target:
+        count += 1
+
+    num = num // 10
+
+print("The digit occurs", count, "times")
+
 
 
 #--------------------------------------------------------------------------------------------------------------
