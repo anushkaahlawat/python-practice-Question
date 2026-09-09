@@ -1,14 +1,14 @@
 # 1.Find the union without using union().
 
 
-s1 = {1, 2, 3}
+'''s1 = {1, 2, 3}
 s2 = {3, 4, 5}
 
 result = set(s1)
 for i in s2:
     result.add(i)
 
-print(result)
+print(result)'''
 
 
 
@@ -20,7 +20,7 @@ print(result)
 
 
 
-s3 = {1, 2, 3, 4}
+'''s3 = {1, 2, 3, 4}
 s4 = {3, 4, 5, 6}
 
 result = set()
@@ -29,7 +29,7 @@ for i in s3:
     if i in s4:
         result.add(i)
 
-print(result)
+print(result)'''
 
 
 #---------------------------------------------------------------------------------------------------------------
