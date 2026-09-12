@@ -1,5 +1,20 @@
 # 1.Find the factorial of a number using a for loop.
+
+
+
+'''n = int(input("enter a number :"))
+fact = 1
+
+for i in range(1,n+1):
+    fact = fact*i
+print(fact)'''
+    
+   
+
 # 2.Count the number of digits in a number.
+
+
+
 # 3.Find the sum of digits of a number.
 # 4.Find the product of digits of a number.
 # 5.Reverse a number using a for loop.
